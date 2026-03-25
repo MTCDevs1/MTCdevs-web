@@ -14,7 +14,7 @@ npm run lint     # ESLint
 
 One-page marketing website for **GoDev** — a digital solutions company targeting SMBs.
 
-**Stack:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Framer Motion · Lucide React
+**Stack:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Framer Motion ·  Lucide React
 
 **Key conventions:**
 - All section components live in `src/components/` and are assembled in `src/app/page.tsx`
