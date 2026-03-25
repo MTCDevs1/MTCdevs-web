@@ -29,7 +29,7 @@ export default function FloatingWhatsApp() {
               <MessageCircle size={14} className="text-green-400" />
             </div>
             <div>
-              <p className="text-white text-xs font-semibold mb-0.5">GoDev</p>
+              <p className="text-white text-xs font-semibold mb-0.5">MTCDevs</p>
               <p className="text-slate-400 text-xs leading-relaxed">
                 Hi! Ready to chat about your project? 👋
               </p>
@@ -40,7 +40,7 @@ export default function FloatingWhatsApp() {
 
       {/* Button */}
       <motion.a
-        href="https://wa.me/59895694578?text=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20GoDev%27s%20services"
+        href="https://wa.me/59895694578?text=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20MTCDevs%27%20services"
         target="_blank"
         rel="noopener noreferrer"
         className="relative flex items-center justify-center w-14 h-14 rounded-full bg-green-500 hover:bg-green-400 shadow-lg shadow-green-500/30 transition-all duration-200"

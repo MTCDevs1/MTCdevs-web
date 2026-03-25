@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Logo from "@/components/Logo";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — GoDev",
+  title: "Terms of Service — MTCDevs",
 };
 
 export default function TermsPage() {
@@ -17,7 +17,7 @@ export default function TermsPage() {
 
         <div className="space-y-6 text-slate-400 leading-relaxed text-sm">
           <p>
-            By accessing or using the GoDev website, you agree to be bound by
+            By accessing or using the MTCDevs website, you agree to be bound by
             these Terms of Service.
           </p>
 
@@ -31,13 +31,13 @@ export default function TermsPage() {
           <h2 className="text-white text-lg font-semibold mt-8 mb-3">Intellectual Property</h2>
           <p>
             All content on this website, including text, graphics, and logos, is
-            the property of GoDev and is protected by applicable intellectual
+            the property of MTCDevs and is protected by applicable intellectual
             property laws.
           </p>
 
           <h2 className="text-white text-lg font-semibold mt-8 mb-3">Disclaimer</h2>
           <p>
-            This website is provided on an &quot;as is&quot; basis. GoDev makes no
+            This website is provided on an &quot;as is&quot; basis. MTCDevs makes no
             warranties, expressed or implied, regarding the accuracy or
             completeness of any information on this site.
           </p>
@@ -46,10 +46,10 @@ export default function TermsPage() {
           <p>
             If you have any questions about these Terms, please contact us at{" "}
             <a
-              href="mailto:contact@godev.com"
+              href="mailto:mctdevs2026@gmail.com"
               className="text-indigo-400 hover:text-indigo-300"
             >
-              contact@godev.com
+              mctdevs2026@gmail.com
             </a>
             .
           </p>

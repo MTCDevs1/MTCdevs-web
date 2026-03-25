@@ -82,7 +82,7 @@ export default function Problems() {
           className="mt-12 text-center text-slate-400 text-lg"
         >
           If any of these sound familiar,{" "}
-          <span className="text-white font-medium">GoDev was built for you.</span>
+          <span className="text-white font-medium">MTCDevs was built for you.</span>
         </motion.p>
       </div>
     </section>

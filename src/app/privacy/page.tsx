@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Logo from "@/components/Logo";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — GoDev",
+  title: "Privacy Policy — MTCDevs",
 };
 
 export default function PrivacyPage() {
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
 
         <div className="prose prose-invert prose-sm max-w-none space-y-6 text-slate-400 leading-relaxed">
           <p>
-            GoDev (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
+            MTCDevs (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
             This Privacy Policy explains how we collect, use, and safeguard your
             information when you visit our website or contact us.
           </p>
@@ -42,10 +42,10 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy, please contact
             us at{" "}
             <a
-              href="mailto:contact@godev.com"
+              href="mailto:mctdevs2026@gmail.com"
               className="text-indigo-400 hover:text-indigo-300"
             >
-              contact@godev.com
+              mctdevs2026@gmail.com
             </a>
             .
           </p>

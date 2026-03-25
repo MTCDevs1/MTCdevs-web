@@ -20,10 +20,10 @@ export default function Logo({ size = "md" }: { size?: "sm" | "md" | "lg" }) {
       <span
         className={`font-bold tracking-tight gradient-text ${sizes[size].text}`}
       >
-        Go
+        MTC
       </span>
       <span className={`font-bold tracking-tight text-white ${sizes[size].text}`}>
-        Dev
+        Devs
       </span>
       <motion.span
         className={`${sizes[size].dot} rounded-full bg-indigo-500 ml-0.5 self-end mb-1`}

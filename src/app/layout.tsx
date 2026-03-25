@@ -8,14 +8,14 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "GoDev — Digital Solutions for Real Business Problems",
+  title: "MTCDevs — Digital Solutions for Real Business Problems",
   description:
-    "GoDev builds websites, systems, chatbots, and automation tailored to your business. We solve real business problems with digital solutions.",
+    "MTCDevs builds websites, systems, chatbots, and automation tailored to your business. We solve real business problems with digital solutions.",
   keywords: "web development, digital solutions, business automation, chatbots, custom systems, e-commerce",
   openGraph: {
-    title: "GoDev — Digital Solutions for Real Business Problems",
+    title: "MTCDevs — Digital Solutions for Real Business Problems",
     description: "We solve real business problems with digital solutions.",
-    siteName: "GoDev",
+    siteName: "MTCDevs",
     type: "website",
   },
 };

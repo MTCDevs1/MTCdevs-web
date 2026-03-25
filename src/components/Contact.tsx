@@ -4,6 +4,11 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Mail, Send, CheckCircle2, MessageCircle } from "lucide-react";
+import emailjs from "@emailjs/browser";
+
+const EMAILJS_SERVICE_ID = "service_8j5p7qk";
+const EMAILJS_TEMPLATE_ID = "template_ntubwx9";
+const EMAILJS_PUBLIC_KEY = "hBLgwkK27BOo8Xch2";
 
 const businessTypes = [
   "Retail / Physical store",
@@ -29,6 +34,7 @@ export default function Contact() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -41,10 +47,25 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate submission — wire up to your backend / email service
-    await new Promise((r) => setTimeout(r, 1200));
-    setLoading(false);
-    setSubmitted(true);
+    setError(false);
+    try {
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          name: form.name,
+          email: form.email,
+          business_type: form.businessType || "—",
+          message: form.message,
+        },
+        EMAILJS_PUBLIC_KEY
+      );
+      setSubmitted(true);
+    } catch {
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const inputClass =
@@ -184,6 +205,12 @@ export default function Contact() {
                   />
                 </div>
 
+                {error && (
+                  <p className="text-red-400 text-sm text-center">
+                    Something went wrong. Please try again or email us directly.
+                  </p>
+                )}
+
                 <button
                   type="submit"
                   disabled={loading}
@@ -217,7 +244,7 @@ export default function Contact() {
           >
             {/* Email */}
             <a
-              href="mailto:contact@godev.com"
+              href="mailto:mctdevs2026@gmail.com"
               className="group flex items-center gap-4 rounded-2xl border border-slate-800/80 bg-white/[0.025] p-5 hover:border-indigo-500/40 hover:bg-white/[0.04] transition-all duration-200"
             >
               <div className="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-500/20 transition-colors">
@@ -226,7 +253,7 @@ export default function Contact() {
               <div>
                 <p className="text-xs text-slate-500 mb-0.5">Email</p>
                 <p className="text-slate-200 text-sm font-medium">
-                  contact@godev.com
+                  mctdevs2026@gmail.com
                 </p>
               </div>
             </a>

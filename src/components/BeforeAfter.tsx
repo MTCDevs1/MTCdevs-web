@@ -46,7 +46,7 @@ export default function BeforeAfter() {
           className="text-3xl md:text-5xl font-bold tracking-tight mb-16"
         >
           Before vs{" "}
-          <span className="gradient-text">After GoDev</span>
+          <span className="gradient-text">After MTCDevs</span>
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -95,7 +95,7 @@ export default function BeforeAfter() {
                   <Check size={14} className="text-indigo-400" />
                 </div>
                 <h3 className="text-white font-semibold text-lg">
-                  After GoDev
+                  After MTCDevs
                 </h3>
               </div>
               <ul className="flex flex-col gap-4">

@@ -50,7 +50,7 @@ export default function WhyGoDev() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-3xl md:text-5xl font-bold tracking-tight mb-16 max-w-lg"
         >
-          Why <span className="gradient-text">GoDev?</span>
+          Why <span className="gradient-text">MTCDevs?</span>
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

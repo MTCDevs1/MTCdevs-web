@@ -85,7 +85,7 @@ export default function Hero() {
             />
           </button>
           <a
-            href="mailto:contact@godev.com"
+            href="mailto:mctdevs2026@gmail.com"
             className="flex items-center gap-2 rounded-xl border border-slate-700 hover:border-indigo-500/50 bg-transparent px-7 py-3.5 text-sm font-medium text-slate-300 hover:text-white transition-all duration-200 hover:bg-white/5"
           >
             <Mail size={14} />
