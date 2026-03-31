@@ -14,7 +14,7 @@ npm run lint     # ESLint
 
 One-page marketing website for **GoDev** — a digital solutions company targeting SMBs.
 
-**Stack:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Framer Motion · Lucide React
+**Stack:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Framer Motion ·  Lucide React
 
 **Key conventions:**
 - All section components live in `src/components/` and are assembled in `src/app/page.tsx`
@@ -25,7 +25,7 @@ One-page marketing website for **GoDev** — a digital solutions company targeti
 
 **Animation pattern:** Use inline `initial`/`animate`/`transition` props rather than the `variants` + `custom` pattern — the current framer-motion version has strict TypeScript types that reject the `TargetResolver` variant signature.
 
-**Contact:** `contact@godev.com` · WhatsApp `+59895694578`
+**Contact:** `mtcdevs2026@gmail.com` · WhatsApp `+59899834587`
 
 **Sections order:** Hero → Problems → Solutions → WhyGoDev → Process → BeforeAfter → Portfolio → LeadMagnet → Contact → Footer + FloatingWhatsApp (fixed overlay)
 
