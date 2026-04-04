@@ -15,6 +15,14 @@ const projects = [
     image: "/esponda-preview.png",
     url: "https://esponda-panaderia-y-confiteria.vercel.app/",
   },
+  {
+    title: "DriveOne Motors",
+    description:
+      "Plataforma web para compra de autos usados con catálogo curado, reserva de visitas y experiencia de compra premium.",
+    tags: ["Web App", "Frontend", "Automotive"],
+    image: "/driveone-preview.png",
+    url: "https://driveone-three.vercel.app/",
+  },
 ];
 
 export default function Portfolio() {
