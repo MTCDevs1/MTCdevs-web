@@ -66,13 +66,13 @@ export default function Footer() {
                 mctdevs2026@gmail.com
               </a>
               <a
-                href="https://wa.me/59899834587"
+                href="https://wa.me/59898682103"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors"
               >
                 <MessageCircle size={14} className="text-green-400" />
-                +598 99 834 587
+                +598 98 682 103
               </a>
             </div>
           </div>

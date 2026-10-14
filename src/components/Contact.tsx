@@ -260,7 +260,7 @@ export default function Contact() {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/59899834587"
+              href="https://wa.me/59898682103"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-2xl border border-slate-800/80 bg-white/[0.025] p-5 hover:border-green-500/40 hover:bg-white/[0.04] transition-all duration-200"
@@ -271,7 +271,7 @@ export default function Contact() {
               <div>
                 <p className="text-xs text-slate-500 mb-0.5">WhatsApp</p>
                 <p className="text-slate-200 text-sm font-medium">
-                  +598 99 834 587
+                  +598 98 682 103
                 </p>
                 <p className="text-xs text-slate-500 mt-0.5">
                   Available for quick questions
