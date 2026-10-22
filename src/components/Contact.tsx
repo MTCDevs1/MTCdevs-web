@@ -5,6 +5,7 @@ import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Mail, Send, CheckCircle2, MessageCircle } from "lucide-react";
 import emailjs from "@emailjs/browser";
+import EmailLink from "./EmailLink";
 
 const EMAILJS_SERVICE_ID = "service_8j5p7qk";
 const EMAILJS_TEMPLATE_ID = "template_ntubwx9";
@@ -243,10 +244,7 @@ export default function Contact() {
             className="lg:col-span-2 flex flex-col gap-5"
           >
             {/* Email */}
-            <a
-              href="mailto:martin@mtcdevs.com"
-              className="group flex items-center gap-4 rounded-2xl border border-slate-800/80 bg-white/[0.025] p-5 hover:border-indigo-500/40 hover:bg-white/[0.04] transition-all duration-200"
-            >
+            <EmailLink className="group flex items-center gap-4 rounded-2xl border border-slate-800/80 bg-white/[0.025] p-5 hover:border-indigo-500/40 hover:bg-white/[0.04] transition-all duration-200">
               <div className="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-500/20 transition-colors">
                 <Mail size={18} className="text-indigo-400" />
               </div>
@@ -256,7 +254,7 @@ export default function Contact() {
                   martin@mtcdevs.com
                 </p>
               </div>
-            </a>
+            </EmailLink>
 
             {/* WhatsApp */}
             <a

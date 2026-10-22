@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, Sparkles } from "lucide-react";
 import Logo from "./Logo";
+import EmailLink from "./EmailLink";
 
 const anim = (delay: number) => ({
   initial: { opacity: 0, y: 28 },
@@ -84,13 +85,10 @@ export default function Hero() {
               className="group-hover:translate-x-0.5 transition-transform"
             />
           </button>
-          <a
-            href="mailto:martin@mtcdevs.com"
-            className="flex items-center gap-2 rounded-xl border border-slate-700 hover:border-indigo-500/50 bg-transparent px-7 py-3.5 text-sm font-medium text-slate-300 hover:text-white transition-all duration-200 hover:bg-white/5"
-          >
+          <EmailLink className="flex items-center gap-2 rounded-xl border border-slate-700 hover:border-indigo-500/50 bg-transparent px-7 py-3.5 text-sm font-medium text-slate-300 hover:text-white transition-all duration-200 hover:bg-white/5">
             <Mail size={14} />
             Email us
-          </a>
+          </EmailLink>
         </motion.div>
 
         {/* Microcopy */}

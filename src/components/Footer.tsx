@@ -2,6 +2,7 @@
 
 import { Mail, MessageCircle } from "lucide-react";
 import Logo from "./Logo";
+import EmailLink from "./EmailLink";
 
 const socialLinks = [
   {
@@ -58,13 +59,10 @@ export default function Footer() {
               Contact
             </p>
             <div className="flex flex-col gap-3">
-              <a
-                href="mailto:martin@mtcdevs.com"
-                className="flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors"
-              >
+              <EmailLink className="flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors">
                 <Mail size={14} className="text-indigo-400" />
                 martin@mtcdevs.com
-              </a>
+              </EmailLink>
               <a
                 href="https://wa.me/59898682103"
                 target="_blank"
