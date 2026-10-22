@@ -46,10 +46,10 @@ export default function TermsPage() {
           <p>
             If you have any questions about these Terms, please contact us at{" "}
             <a
-              href="mailto:mctdevs2026@gmail.com"
+              href="mailto:martin@mtcdevs.com"
               className="text-indigo-400 hover:text-indigo-300"
             >
-              mctdevs2026@gmail.com
+              martin@mtcdevs.com
             </a>
             .
           </p>

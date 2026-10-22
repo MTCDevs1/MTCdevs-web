@@ -244,7 +244,7 @@ export default function Contact() {
           >
             {/* Email */}
             <a
-              href="mailto:mctdevs2026@gmail.com"
+              href="mailto:martin@mtcdevs.com"
               className="group flex items-center gap-4 rounded-2xl border border-slate-800/80 bg-white/[0.025] p-5 hover:border-indigo-500/40 hover:bg-white/[0.04] transition-all duration-200"
             >
               <div className="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-500/20 transition-colors">
@@ -253,7 +253,7 @@ export default function Contact() {
               <div>
                 <p className="text-xs text-slate-500 mb-0.5">Email</p>
                 <p className="text-slate-200 text-sm font-medium">
-                  mctdevs2026@gmail.com
+                  martin@mtcdevs.com
                 </p>
               </div>
             </a>
